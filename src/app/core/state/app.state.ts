@@ -6,6 +6,7 @@ import { IConfigState, initialConfigState } from './config.state';
 export interface IAppState {
   router?: RouterReducerState;
   users: IUserState;
+  config: IConfigState;
 }
 
 export const initialAppState: IAppState = {
